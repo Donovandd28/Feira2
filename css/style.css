@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.header {
+ 
+    max-width: 100%;
+    
+    
+    height: 90vh; 
+    background:linear-gradient(rgba(8,28,21, 0.75),rgba(8,28,21, 0.75)),  url('../imagens/img1.jpg');
+    
+    background-size: 100% 100%;
+
+    padding: 0;
+}
+
+
+
+
+.menu{
+
+width: 100%;
+
+max-width: 2560px;
+
+min-width: 100px;
+
+height: 10vh;
+
+background-color: #1b4332;
+
+margin-top: 0px;
+
+position: fixed;
+
+display: flex;
+
+justify-content: space-around;
+
+align-items: center; flex-wrap: wrap;
+
+z-index: 2;
+}
+
+.menu a{
+
+        
+    
+    background-color: #1b4332; 
+    
+    color:#ffffff;
+    
+    font-size: 33px;
+
+    
+}
+
+.menu a:hover{
+
+}
+
+
+.header-main{
+   
+    position: relative;
+
+    width: 100%;
+        
+    height: 100%;
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    justify-content: center;
+    
+    align-items: center;
+    
+    } .header-main h1{
+    
+    
+    color:white;
+    
+    margin-top: 105px;
+    
+    font-size: 65px;
+    
+    text-shadow: 5px 5px 10px 0#000000;
+    
+    } .header-main button{
+    
+    color: #eeeeee; background-color: #ffffff;
+    
+    border: 0;
+    
+    border-radius: 10px;
+    
+    width: 200px;
+    
+    height: 60px;
+    
+    margin-top: 150px;
+    
+    font-weight: bold;
+    
+    font-size: 25px;
+    
+    z-index: 2;
+    
+    }    
+
+    #sobre{
+        background-color: #40916c  ;
+        padding: 0px 60px 400px 10px;
+        font-size: 20px;
+        width: 100%;
+        height: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        color: white; 
+    
+    }
+    #sobrecontent{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #sobre img{
+        position: relative;
+        width: 300px;
+        padding: 0px 60px 300px 10px;
+        right:-20px;
+        
+    }
+#sobre h2{
+    font-size: 50px;
+}
+
+.textos{
+    margin-top:50px ;
+    height: 500px;
+    width: 500px;
+}
+
+
+
+
+
+
+    #MT{
+        
+        background-color: #40916c  ;
+        padding: 0px 60px 400px 10px;
+        font-size: 20px;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        color: white; 
+     
+    }
+    #mtcontent{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    #MT img{
+        position: relative;
+        width: 300px;
+        padding: 0px 60px 150px 10px;
+        right:-20px;
+        
+    }
+ 
+    #MT h2{
+        font-size: 50px;
+    }
+
+    #esp{
+        background-color: #40916c  ;
+        padding: 0px 60px 400px 10px;
+        font-size: 20px;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        color: white; 
+    
+    
+    }
+    #espcontent{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #esp img{
+        position: relative;
+        width: 350px;
+        padding: 0px 60px 150px 10px;
+        right:-20px;
+        
+    }
+    #esp h2{
+        font-size: 50px;
+    }
+
+    #salario{
+        background-color: #40916c  ;
+        padding: 0px 60px 400px 10px;
+        font-size: 20px;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        color: white; 
+        
+    }
+    #salariocontent .textos{
+        width: 600px;
+    }
+    #salariocontent{
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    #salario img{
+        position: relative;
+        width: 500px;
+        height: auto;
+        top: -50px;
+        margin-left: 120px;
+    }
+
+    #salario h2{
+        font-size: 50px;
+    }
+
+    #textosalario{
+        padding: 0px 0px 0px 0px;
+
+    }
+
+    #faculdade{
+        position: relative;
+     background-color: #40916c  ;
+        padding: 0px 60px 400px 10px;
+        font-size: 20px;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        color: white; 
+        
+    }
+    #faculdadecontent{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    #faculdade .textos{
+        width: 600px;
+    }
+   
+    .slider{
+         width: 500px;
+          height: auto; top: -50px; margin-left: 150px;
+        
+        margin: auto;
+        position: relative;
+        background-color: #ffffff;
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+    }
+
+    .slide-track{
+        display: flex;
+        align-items: center;
+        width: calc(100px*9); 
+        height: 70%;
+        animation: scroll 20s linear infinite;
+    }
+    .slide-track:hover {
+        animation-play-state: paused;
+    }
+
+    @keyframes scroll{
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(calc(-250px * 5));
+        }
+    }
+    
+    .slide {
+        height: 250px;
+        width: 250px;
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        perspective: 150px;
+        padding: 20px;
+    }
+    .slide a, .slide img{
+        width: 100%;
+        transition: transform 0.1s;
+        cursor:pointer;    
+        background-color: #ffffff;
+        z-index: 2;
+        opacity: 0.7;
+    
+    }
+    .slide a:hover {
+        transform: translateZ(20px);
+        opacity: 2;
+     
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #faculdade h2{
+        font-size: 50px;
+    }
+
+
+  
